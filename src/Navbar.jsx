@@ -5,7 +5,9 @@ import { Link } from 'react-router-dom';
 export const Navbar = () => {
     return (
         <nav className="navbar">
-          <div className="navbar-logo">ALPHA-CON</div>
+          <div className="navbar-logo">
+            <img src="src\assets\images\alpha-logo.png" alt="" />
+          </div>
           <nav className="navbar-links">
             <Link to="/">Home</Link>
             <Link to="/passes">Passes</Link>

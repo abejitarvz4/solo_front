@@ -10,10 +10,9 @@ export const AppRouter = () => {
     <>
         <Navbar/>
         <Routes>
-            <Route path='/' element= {<Homepage/>}>
-                <Route path='login' element= {<Loginpage/>} />
-                <Route path='register' element= {<Registerpage/>} />
-            </Route>
+            <Route path='/' element= {<Homepage/>} />
+            <Route path='login' element= {<Loginpage/>} />
+            <Route path='register' element= {<Registerpage/>} />
         </Routes>
     </>
   )
