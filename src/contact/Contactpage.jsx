@@ -16,7 +16,7 @@ export const Contactpage = () => {
             <img src="src/assets/images/face-logo.png" alt="" className='logo-face'/>
           </Link>
         </div>
-        <p>alphacon.sanluisㅤㅤㅤㅤAlpha Conㅤ</p>
+        <p>alphacon.sanluis Alpha Con </p>
         <h3>Correo</h3>
         <h4>contacto@alphacon.com.mx</h4>
       </div>
@@ -24,4 +24,4 @@ export const Contactpage = () => {
   );
 };
 
-export default Contactpage;
+export default Contactpage; 

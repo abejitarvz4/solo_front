@@ -89,3 +89,10 @@ body {
 .navbar-signin:hover, .navbar-signup:hover {
   background-color: #7b33e7;
 }
+
+.navbar-username{
+  color:#fff;
+  text-decoration: none;
+  margin: 0 15px;
+  align-items: center;
+}
